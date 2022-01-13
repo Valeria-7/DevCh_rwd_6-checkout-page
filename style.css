@@ -242,3 +242,30 @@ body {
   line-height: 17px;
   color: #333333;
 }
+
+.footer {
+  margin-top: 160px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.footer-info {
+  font-size: 14px;
+  line-height: 17px;
+  color: #bdbdbd;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #bdbdbd;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: #7e7b7b;
+}
+
+.username {
+  text-decoration: underline;
+  font-weight: bold;
+}
