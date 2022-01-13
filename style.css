@@ -45,28 +45,6 @@ body {
   color: #333333;
 }
 
-/*
-.input-area {
-  display: flex;
-  align-items: center;
-  padding: 20px 14px;
-  margin-top: 7px;
-  margin-bottom: 20px;
-  border: 1px solid #828282;
-  border-radius: 12px;
-  height: 56px;
-}
-
-.form-input {
-  height: 100%;
-  width: 100%;
-  border: none;
-}
-
-.material-icons {
-  margin-right: 18px;
-}*/
-
 .input-area {
   position: relative;
 }
@@ -108,12 +86,10 @@ body {
 
 .country-select {
   width: 217px;
-  font-size: 16px;
-  line-height: 20px;
   color: #828282;
-  /*appearance: none;
-  background: url("path/img.png") no-repeat right center;*/
-  /*add image*/
+  appearance: none;
+  background: url("img/arrow.svg") no-repeat right 11px center;
+  cursor: pointer;
 }
 
 .save-info-area {
@@ -127,6 +103,7 @@ body {
   width: 21px;
   transform: scale(1.5);
   padding: 10px;
+  cursor: pointer;
 }
 
 .form-button {
@@ -142,6 +119,11 @@ body {
   border-radius: 12px;
   border: none;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-button:hover {
+  background: #d16a10;
 }
 
 .overview {
