@@ -30,87 +30,134 @@
 
   </head>
   <body>
-    <div class="checkout-block">
+    <main class="main container">
       <h1 class="main-title">Checkout</h1>
-      <form action="" class="checkout-form">
-        <div class="contact-information">
-          <h2 class="form-title">Contact infomation</h2>
-          E-mail
-          <div class="input-area">
-            <span class="material-icons">
-              email
-            </span>
-            <input type="email" placeholder="Enter your email..." class="form-input">
+      <div class="checkout-block">
+      
+        <form action="" class="checkout-form">
+          <div class="contact-information">
+            <h2 class="form-title">Contact infomation</h2>
+            E-mail
+            <div class="input-area">
+              <span class="material-icons">
+                email
+              </span>
+              <input type="email" placeholder="Enter your email..." class="form-input">
+            </div>
+      
+            Phone
+            <div class="input-area">
+              <span class="material-icons">
+                phone
+              </span>
+              <input type="tel" placeholder="Enter your phone..." class="form-input">
+            </div>
+          </div>
+          <div class="shipping-address">
+            <h2 class="form-title">Shipping address</h2>
+            Full name
+            <div class="input-area">
+              <span class="material-icons">
+                account_circle
+              </span>
+              <input type="text" value="Rodney Cotton" class="form-input">
+            </div>
+            Address
+            <div class="input-area">
+              <span class="material-icons">
+                home
+              </span>
+              <input type="text" placeholder="Your address.." class="form-input">
+            </div>
+            City
+            <div class="input-area">
+              <span class="material-icons">
+                location_city
+              </span>
+              <input type="text" placeholder="Your city.." class="form-input">
+            </div>
+            <div class="country-code">
+              <div class="country-area">
+                Country
+                <div class="input-area">
+                  <span class="material-icons">
+                    public
+                  </span>
+                  <select name="country-select" class="country-select form-input">
+                    <option value="Your country..">Your country..</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Poland">Poland</option>
+                    <option value="Ukraine">Ukraine</option>
+                  </select>
+                  <!--<input type="text" placeholder="Your country.." class="form-input">-->
+                </div>
+              </div>
+              <div class="post-area">
+                Postal code
+                <div class="input-area">
+                  <span class="material-icons">
+                    markunread_mailbox
+                  </span>
+                  <input type="text" placeholder="Your postal code.." class="form-input">
+                </div>
+              </div>
+            </div>
+      
+      
+          </div>
+          <div class="save-info-area">
+            <input type="checkbox" name="save-button" class="save-button">
+            Save this information for next time
+          </div>
+          <button class="form-button">Continue</button>
+        </form>
+        <div class="overview">
+          <div class="overview-product">
+            <img src="img/photo1.png" alt="product" class="product-img">
+            <div class="product-info">
+              <h6 class="product-name">Vintage Backbag</h6>
+              <div class="product-prices">
+                <span class="sale-price">$54.99</span>
+                <span class="old-price">$94.99</span>
+              </div>
+              <div class="counter">
+                <span class="counter-sign minus">-</span>
+                <span class="counter-amount">1</span>
+                <span class="counter-sign plus">+</span>
+              </div>
+            </div>
+          </div>
+          <div class="overview-product">
+            <img src="img/photo2.png" alt="product" class="product-img">
+            <div class="product-info">
+              <h6 class="product-name">Levi Shoes</h6>
+              <div class="product-prices">
+                <span class="sale-price">$74.99</span>
+                <span class="old-price">$124.99</span>
+              </div>
+              <div class="counter">
+                <span class="counter-sign minus">-</span>
+                <span class="counter-amount">1</span>
+                <span class="counter-sign plus">+</span>
+              </div>
+            </div>
+          </div>
+          <div class="overview-total-info">
+            <div class="total-info">
+              <span class="total-text">Shipping</span>
+              <span class="total-price">$19</span>
+            </div>
+            <div class="total-info">
+              <span class="total-text">Total</span>
+              <span class="total-price">$148.98</span>
+            </div>
           </div>
           
-          Phone
-          <div class="input-area">
-            <span class="material-icons">
-              phone
-            </span>
-            <input type="tel" placeholder="Enter your phone..." class="form-input">
-          </div>
-        </div>
-        <div class="shipping-address">
-          <h2 class="form-title">Shipping address</h2>
-          Full name
-          <div class="input-area">
-            <span class="material-icons">
-              account_circle
-            </span>
-            <input type="text" value="Rodney Cotton" class="form-input">
-          </div>
-          Address
-          <div class="input-area">
-            <span class="material-icons">
-              home
-            </span>
-            <input type="text" placeholder="Your address.." class="form-input">
-          </div>
-          City 
-          <div class="input-area">
-            <span class="material-icons">
-              location_city
-            </span>
-            <input type="text" placeholder="Your city.." class="form-input">
-          </div>
-          <div class="country-code">
-            <div class="country-area">
-              Country
-              <div class="input-area">
-                <span class="material-icons">
-                  public
-                </span>
-                <select name="country-select" class="country-select form-input">
-                  <option value="Your country..">Your country..</option>
-                  <option value="Belarus">Belarus</option>
-                  <option value="Russia">Russia</option>
-                  <option value="Poland">Poland</option>
-                  <option value="Ukraine">Ukraine</option>
-                </select>
-                <!--<input type="text" placeholder="Your country.." class="form-input">-->
-              </div>
-            </div>
-            <div class="post-area">
-              Postal code
-              <div class="input-area">
-                <span class="material-icons">
-                  markunread_mailbox
-                </span>
-                <input type="text" placeholder="Your postal code.." class="form-input">
-              </div>
-            </div>
-          </div>
-
 
         </div>
-        <div class="save-info-area">
-          <input type="checkbox" name="save-button" class="save-button">
-          Save this information for next time
-        </div>
-        <button class="form-button">Continue</button>
-      </form>
-      <div class="overview"></div>
-    </div>
+      </div>
+    </main>
+    
   </body>
 </html>
