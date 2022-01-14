@@ -195,9 +195,15 @@ body {
 }
 
 .counter-amount {
+  width: 50px;
   font-size: 16px;
   line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
   color: #333333;
+  text-align: center;
+  background-color: transparent;
+  border: none;
 }
 
 .overview-total-info {
