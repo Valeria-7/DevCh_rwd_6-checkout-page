@@ -30,6 +30,8 @@
 
 ## Overview
 
+#### Deploy: https://valeria-7.github.io/DevCh_rwd_6-checkout-page/
+
 ![image](https://user-images.githubusercontent.com/68329127/149470622-884ece66-0a3f-487a-8cac-c14f4c285e89.png)
 
 ### Built With
